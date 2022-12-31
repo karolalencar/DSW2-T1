@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato&family=Montserrat:wght@700&family=Nunito:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.login {
+    background: rgba(65, 220, 101, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.login-container {
+    width: 903px;
+    height: 506px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 14px;
+}
+
+.brand-side {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 14px 0 0 14px;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: black;
+    margin: 80px 46px 0 46px;
+    text-align: center;
+}
+
+.brand-logo {
+    width: 70%;
+    height: 70%;
+}
+
+.form-side {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+}
+
+.form-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: black;
+    margin: 0 0 24px 0;
+}
+
+.form-text-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.form-text-field label {
+    font-size: 14px;
+    line-height: 19px;
+    color: black;
+    margin: 0 0 4px 0;
+}
+
+.form-text-field input {
+    width: 340px;
+    height: 36px;
+    border: 1px solid #D0D5DD;
+    border-radius: 4px;
+    padding: 0 14px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #667085;
+}
+
+.form-text-field-password {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form-text-field-password a, .form-side a{
+    font-size: 14px;
+    color: #16782c;
+}
+
+.form-text-field-password a:hover, .form-side a:hover {
+    color: #41DC65;
+}
+
+.default-button {
+    width: 340px;
+    height: 36px;
+    background: #41DC65;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+    cursor: pointer;
+    margin: 20px 0 20px 0;
+}
