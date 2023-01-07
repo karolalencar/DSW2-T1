@@ -125,3 +125,40 @@
     cursor: pointer;
     margin: 20px 0 20px 0;
 }
+
+
+.register-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.menu {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 98px 40px 54px;
+    background-color: #F7F7FA;
+}
+
+.buttons-menu {
+    display: flex;
+    gap: 90px;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-clients{
+    margin: 50px;
+}
+
+.home-clients-container {
+    display: flex;
+    justify-content: space-between;
+}
