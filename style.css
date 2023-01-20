@@ -152,7 +152,7 @@
     }
 }
 
-/*HOME*/
+/****************************  HOME  ****************************/
 .menu {
     display: flex;
     justify-content: space-between;
@@ -177,10 +177,17 @@
 }
 
 
-.home-clients-container {
-    display: flex;
-    justify-content: space-between;
-        
+
+
+h1 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 38px;
+    text-align: center;
+    color: rgba(35, 39, 60, 1);
+
 }
 
 
@@ -189,9 +196,16 @@
     flex-direction: column;
     align-items: center;
     padding-top: 2rem;
+    padding-bottom: 2rem;
     gap:2rem;
 }
-
+.resume p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 130%;
+}
 .paid{
     border-radius: 10px;
     width:90%;
@@ -228,6 +242,64 @@
     background-color: rgba(255, 84, 96, 0.16);
 
 }
+table {
+    margin: auto;
+    border-collapse: collapse; 
+}
+tr{
+    border-bottom: 1pt solid rgba(239, 240, 246, 1);
+  }
+caption {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    border-bottom: 1pt solid rgba(239, 240, 246, 1);
+
+
+}
+ thead {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: 0.005em;
+    color: #3F3F55;
+}
+td {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: 0.005em;
+    color: #6E6E85;
+}
+
+tfoot {
+    box-shadow: 0px 4px 4px rgba(172, 217, 197, 0.25);
+    border-radius: 8px;
+    text-align: center;
+    height: 3rem;
+
+}
+
+tfoot td {
+    color: #FF5460;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    text-decoration-line: underline;
+}
+
+/*.home-charges caption p {
+    background-color: rgba(238, 246, 246, 1);
+    border-radius: 8px;
+}*/
 
 @media (min-width: 800px) {
     .resume{
