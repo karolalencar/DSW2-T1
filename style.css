@@ -184,7 +184,7 @@
 .dropbtn{
     width: 48px;
     height: 48px;
-    background-color: #3EC3D5;
+    background-color: rgba(31, 167, 175, 1);
     border-radius: 50%;
     font-family: 'Nunito';
     font-style: normal;
@@ -264,15 +264,18 @@ h1 {
 .value.notpay, 
 .value.overdue{
     background-color:#FFEFEF;
+    color:rgba(255, 84, 96, 1);
 }
 
 
 .value.pay{
     background-color:#EEF6F6;
+    color:rgba(31, 167, 175, 1);
 }
 
 .value.preview{
     background-color:#FCF6DC ;
+    color:#C5A605;
 }
 
 
