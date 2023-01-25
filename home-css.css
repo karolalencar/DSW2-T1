@@ -294,14 +294,29 @@ tfoot td {
             "c c "; 
     }
 
-    #a { grid-area: a; }
-    #b { grid-area: b; }
-    #c { grid-area: c; }
+    #a {
+         grid-area: a;
+         width: 80%; 
+    }
+    #b { 
+        grid-area: b; 
+        width: 80%; 
+    }
+    #c { 
+        grid-area: c;
+        width: 40%;
+        margin: 30px 0px 0px 30px; 
+    }
 
+    
 }
 
 @media (min-width: 1000px){
     .tables-charges{
         display: flex;
+    }
+    #a, #b, #c {
+        width: auto;
+        margin: auto;
     }
 }
