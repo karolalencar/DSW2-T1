@@ -175,9 +175,31 @@
     justify-content: center;
     align-items: center;
 }
+.menu .profile-button .icon-profile {
+    width: 48px;
+    height: 48px;
+    background-color: #3EC3D5;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 21px;
+    line-height: 220%;
+}
+.menu .profile-button p, .menu .profile-button img{
+    display: none;
+}
 
 
+.buttons-menu img {
+    width: 75%;
+}
 
+.buttons-menu p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 19px;
+}
 
 h1 {
     font-family: 'Lato';
@@ -188,6 +210,26 @@ h1 {
     text-align: center;
     color: rgba(35, 39, 60, 1);
 
+}
+.title-table .value {
+    width: 52px;
+    height: 20px;
+    border-radius: 8px;
+    margin: 1rem; 
+}
+
+.value.notpay, 
+.value.overdue{
+    background-color:#FFEFEF;
+}
+
+
+.value.pay{
+    background-color:#EEF6F6;
+}
+
+.value.preview{
+    background-color:#FCF6DC ;
 }
 
 
@@ -244,8 +286,10 @@ h1 {
 }
 table {
     margin: auto;
+    margin-top: 20px;
     border-collapse: collapse; 
 }
+
 tr{
     border-bottom: 1pt solid rgba(239, 240, 246, 1);
   }
