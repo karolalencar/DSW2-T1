@@ -255,7 +255,7 @@ tfoot td {
         gap:10%;
         padding:30px;
     }
-    .home-clients .title-table {
+     .title-table {
         display: flex;
     }
     caption {
@@ -284,6 +284,24 @@ tfoot td {
         padding-top: 10px;
         width: 2.5rem;
     }
+    .tables-charges{
+        display: grid; 
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 1fr 1fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+            "a b "
+            "c c "; 
+    }
+
+    #a { grid-area: a; }
+    #b { grid-area: b; }
+    #c { grid-area: c; }
 
 }
 
+@media (min-width: 1000px){
+    .tables-charges{
+        display: flex;
+    }
+}
