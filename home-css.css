@@ -248,11 +248,39 @@ tfoot td {
 }*/
 
 @media (min-width: 601px) {
-    .resume{
+    .home-clients-container{
+        display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
         gap:10%;
         padding:30px;
     }
+    .home-clients .title-table {
+        display: flex;
+    }
+    caption {
+        font-size: 1.5rem;
+        width: 15rem;
+    }
+    .title-table .value{
+        width: 3rem;
+        height: 2rem;
+    }
+
+    .resume{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .paid {
+        width: 20%;
+        height: 200px;
+        padding: 0px;
+        flex-direction: column;
+    }
+    .paid .logo {
+        padding-top: 10px;
+        width: 2.5rem;
+    }
+
 }
 
