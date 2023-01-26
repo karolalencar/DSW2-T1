@@ -255,6 +255,15 @@ tfoot td {
         gap:10%;
         padding:30px;
     }
+    .home-clients{
+        width: 100%;
+    }
+    .clients-table {
+        width: 40%;
+    }
+    .clients-table table {
+        width: 80%;
+    }
 
     .buttons-menu{
         width: 50%;
@@ -289,7 +298,6 @@ tfoot td {
         width: 2.5rem;
     }
 
-
     #a, #b, #c {
     
          width: 80%; 
@@ -308,11 +316,6 @@ tfoot td {
         width: auto;
         margin: auto;
     }
-    .clients-table {
-        width: 40%;
-    }
-    .clients-table table {
-        width: 80%;
-    }
+    
     
 }
