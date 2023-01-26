@@ -12,7 +12,7 @@
 .menu {
     display: flex;
     justify-content: space-between;
-    padding: 17px 30px 15px 27px;
+    padding: 24px 30px;
     background-color: #F7F7FA;
 }
 
@@ -21,6 +21,12 @@
     justify-content: space-between;
     width: 80%;
 }
+
+.buttons-menu > img {
+    margin: auto 20px;
+
+}
+
 #icon-menu{
     width: 80%;
 }
