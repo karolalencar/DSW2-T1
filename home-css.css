@@ -254,8 +254,6 @@ tfoot td {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        gap:10%;
-        padding:30px;
     }
     .home-clients{
         width: 100%;
@@ -264,7 +262,7 @@ tfoot td {
         width: 40%;
     }
     .clients-table table {
-        width: 80%;
+        min-width: 250px;
     }
 
     .buttons-menu{
@@ -276,11 +274,9 @@ tfoot td {
     }
     caption {
         font-size: 1.5rem;
-        width: 15rem;
-    }
-    .home-charges caption {
         width: auto;
     }
+    
     .title-table .value{
         width: 3rem;
         height: 2rem;
