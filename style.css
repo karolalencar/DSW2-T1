@@ -18,7 +18,7 @@
 }
 
 .login-container {
-    width: 80%;
+    width: 50%;
     height: 506px;
     display: flex;
     justify-content: center;
@@ -51,7 +51,6 @@
 .brand-logo {
     width: 70%;
     height: 70%;
-    display: none;
 }
 
 .form-side {
@@ -114,7 +113,7 @@
 }
 
 .default-button {
-    width: 100%;
+    width: 210px;
     height: 36px;
     background: #41DC65;
     border-radius: 4px;
@@ -136,271 +135,9 @@
     height: 100vh;
 }
 
-@media (min-width: 800px){
-    .brand-logo{
-        display: block;
-    }
-
-    .brand-side {
-        width: 50%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        border-radius: 14px 0 0 14px;
-        justify-content: center;
-        align-items: center;
-    }
-}
-
-/****************************  HOME  ****************************/
-.menu {
-    display: flex;
-    justify-content: space-between;
-    padding: 17px 30px 15px 27px;
-    background-color: #F7F7FA;
-}
-
-.buttons-menu {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-}
-#icon-menu{
-    width: 80%;
-}
-
-.home-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.menu .profile-button p, .menu .profile-button img{
-    display: none;
-}
-
-/*TENTATIVA MENU*/
-.dropbtn{
-    width: 48px;
-    height: 48px;
-    background-color: rgba(31, 167, 175, 1);
-    border-radius: 50%;
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 21px;
-    color: #ffffff;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #fff;
-    min-width: 6rem;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    border-radius: 8px;
-    right: -20px;
-    top:3.5rem;
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: #f1f1f1} /*Aparece menu*/
-  
-  .dropdown:hover .dropdown-content { /*Esconde menu*/
-    display: block;
-  }
-
-.dropdown:hover .dropbtn {
-    background-color: #F7F7FA;
-    color: #000;
-  }
-
-/**/
 
 
-.buttons-menu img {
-    width: 30px;
-    height: 30px;
-}
-
-.buttons-menu p {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 19px;
-}
-
-h1 {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 2rem;
-    line-height: 38px;
-    text-align: center;
-    padding-top: 30px;
-    color: rgba(35, 39, 60, 1);
-
-}
-.title-table .value {
-    width: 52px;
-    height: 20px;
-    border-radius: 8px;
-    margin: 1rem; 
-}
-
-.value.notpay, 
-.value.overdue{
-    background-color:#FFEFEF;
-    color:rgba(255, 84, 96, 1);
-}
-
-
-.value.pay{
-    background-color:#EEF6F6;
-    color:rgba(31, 167, 175, 1);
-}
-
-.value.preview{
-    background-color:#FCF6DC ;
-    color:#C5A605;
-}
-
-
-.resume{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    gap:2rem;
-}
-.resume p {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1rem;
-    line-height: 130%;
-}
-.paid{
-    border-radius: 10px;
-    width:90%;
-    height:100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 23px 40px;
-    gap: 10px;
-    
-}
-.paid-title {
-    text-align: center;
-}
-.paid-value {
-    white-space: nowrap;
-
-}
-.paid .logo{
-    width:50px;
-}
-
-.paid-out{
-    background-color: rgba(62, 195, 213, 0.16);
-}
-
-.paid-preview{
-    background-color: rgba(200, 199, 205, 0.16);
-    
-}
-
-.paid-overdue{
-    background-color: rgba(255, 84, 96, 0.16);
-
-}
-table {
-    margin: auto;
-    margin-top: 20px;
-    border-collapse: collapse; 
-}
-
-tr{
-    border-bottom: 1pt solid rgba(239, 240, 246, 1);
-  }
-caption {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 130%;
-    border-bottom: 1pt solid rgba(239, 240, 246, 1);
-
-
-}
- thead {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 50px;
-    letter-spacing: 0.005em;
-    color: #3F3F55;
-}
-td {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 40px;
-    letter-spacing: 0.005em;
-    color: #6E6E85;
-}
-
-tfoot {
-    box-shadow: 0px 4px 4px rgba(172, 217, 197, 0.25);
-    border-radius: 8px;
-    text-align: center;
-    height: 3rem;
-
-}
-
-tfoot td {
-    color: #FF5460;
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 130%;
-    text-decoration-line: underline;
-}
-
-/*.home-charges caption p {
-    background-color: rgba(238, 246, 246, 1);
-    border-radius: 8px;
-}*/
-
-@media (min-width: 800px) {
-    .resume{
-        flex-direction: row;
-        justify-content: space-between;
-        gap:10%;
-        padding:30px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     .login {
         align-items: flex-end;
     }
@@ -415,7 +152,7 @@ tfoot td {
     .brand-logo {
         position: absolute;
         bottom: 70%;
-        right: 26%;
+        margin: 0 auto;
         width: 200px;
         height: 200px;
     }
@@ -426,8 +163,7 @@ tfoot td {
     }
 
     .brand-side {
-        margin-top: 40%;
-        height: 50%;
+        margin-top: 56px;
     }
 
     .form-title {
@@ -438,6 +174,22 @@ tfoot td {
     .form-side p, .form-side a {
         font-size: 12px; 
     }
-
     
+}
+
+@media only screen and (min-width: 601px) and (max-width: 999px) {
+    .login-container { 
+        width: 80%;
+        height: 86%;
+        border-radius: 40px;
+        flex-direction: column;
+    }
+
+    .brand-logo {
+        position: absolute;
+        bottom: 70%;
+        right: 26%;
+        width: 200px;
+        height: 200px;
+    }
 }
