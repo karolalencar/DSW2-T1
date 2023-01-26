@@ -255,6 +255,10 @@ tfoot td {
         gap:10%;
         padding:30px;
     }
+
+    .buttons-menu{
+        width: 50%;
+    }
      .title-table {
         display: flex;
     }
@@ -284,34 +288,19 @@ tfoot td {
         padding-top: 10px;
         width: 2.5rem;
     }
-    .tables-charges{
-        display: grid; 
-        grid-template-columns: 1fr 1fr; 
-        grid-template-rows: 1fr 1fr; 
-        gap: 0px 0px; 
-        grid-template-areas: 
-            "a b "
-            "c c "; 
-    }
 
-    #a {
-         grid-area: a;
+
+    #a, #b, #c {
+    
          width: 80%; 
     }
-    #b { 
-        grid-area: b; 
-        width: 80%; 
-    }
-    #c { 
-        grid-area: c;
-        width: 40%;
-        margin: 30px 0px 0px 30px; 
-    }
-
     
 }
 
 @media (min-width: 1000px){
+    .home-clients{
+        width: 100%;
+    }
     .tables-charges{
         display: flex;
     }
@@ -319,4 +308,11 @@ tfoot td {
         width: auto;
         margin: auto;
     }
+    .clients-table {
+        width: 40%;
+    }
+    .clients-table table {
+        width: 80%;
+    }
+    
 }
