@@ -64,6 +64,11 @@
     font-size: 14px;
 }
 
+.form-side > p {
+    width: 60%;
+    text-align: center;
+}
+
 .form-title {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -185,11 +190,20 @@
         flex-direction: column;
     }
 
+    .brand-side {
+        height: 20%;
+    }
+
     .brand-logo {
         position: absolute;
-        bottom: 70%;
-        right: 26%;
+        bottom: 60%;
+        margin: 0 auto;
         width: 200px;
         height: 200px;
+    }
+
+    .brand-title {
+        font-size: 1.7rem;
+        margin: 0;
     }
 }
