@@ -222,6 +222,7 @@ td {
     line-height: 40px;
     letter-spacing: 0.005em;
     color: #6E6E85;
+    text-align: center;
 }
 
 tfoot {
@@ -270,10 +271,14 @@ tfoot td {
     }
      .title-table {
         display: flex;
+        justify-content: space-between;
     }
     caption {
         font-size: 1.5rem;
         width: 15rem;
+    }
+    .home-charges caption {
+        width: auto;
     }
     .title-table .value{
         width: 3rem;
